@@ -1,8 +1,9 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 function CorouselComp() {
   return (
-    <Carousel>
+    <Carousel className='carousel-container'>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -10,8 +11,8 @@ function CorouselComp() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Easy Access Location</h3>
+          <p>Located at the heart of Navy Yard Washington D.C.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,8 +23,8 @@ function CorouselComp() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Modern Styles</h3>
+          <p>We offer modern nail art, colors, and style.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

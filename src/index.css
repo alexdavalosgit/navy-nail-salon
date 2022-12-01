@@ -16,7 +16,53 @@ code {
   min-height: 100vh;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .infobar, .infobar p {
   background-color: #D5BDAF;
   margin: 0;
+}
+
+.h-50 {
+  min-height: 50vh;
+}
+
+.secondary-background {
+  background-color: #f6f7f9;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  object-fit:contain;
+  max-height: 500px;
+  min-width: 100%;
+  border-radius: 5rem;
+}
+
+/* Carousel Styling */
+
+.carousel-container img {
+  max-height: 80vh;
+}
+
+.carousel-container p, h3 {
+  color: black;
+}
+
+.red-border {
+  border: 2px solid red;
+}
+
+.blue-border {
+  border: 2px solid blue;
+}
+
+.green-border {
+  border: 2px solid green;
 }
