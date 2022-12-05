@@ -4,7 +4,9 @@ import Infobar from './components/Infobar'
 import Navbar from './components/Navbar'
 import CarouselComp from './components/CarouselComp'
 import Information from './components/Information'
-import TeamInformation from './components/TeamInformation'
+import SocialMedia from './components/SocialMedia'
+import Footer from './components/Footer'
+import Information2 from './components/Information2'
 import Services from './components/Services'
 
 function App() {
@@ -12,12 +14,16 @@ function App() {
     <div>
       <Infobar/>
       <Navbar/>
+
       <Container fluid className='app p-0'>
         <CarouselComp/>
-        <Services/>
+        <Information2/>
         <Information/>
-        <TeamInformation/>
+        <Services/>
+        <SocialMedia/>
       </Container>
+
+      <Footer/>
     </div>
   )
 }
