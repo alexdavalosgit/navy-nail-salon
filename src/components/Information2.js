@@ -15,8 +15,8 @@ function Information2() {
             Our team works with clients on a very personal level to achieve
             their ideas about a positive image.
           </p>
-          <Button className="btn-lg" variant="outline-dark">
-            Explore Our Services
+          <Button href="/about" className="btn-lg" variant="outline-dark">
+            Learn More
           </Button>
         </div>
       </div>

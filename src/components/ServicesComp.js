@@ -13,7 +13,7 @@ function ServicesComp() {
             skin.
           </p>
           <Button variant="outline-dark" as={Link} to="/services">
-            Learn More
+            Explore
           </Button>
         </Col>
         <Col className="border text-center p-5">
@@ -23,7 +23,7 @@ function ServicesComp() {
             polishing.
           </p>
           <Button variant="outline-dark" as={Link} to="/services">
-            Learn More
+            Explore
           </Button>
         </Col>
       </Row>
@@ -36,7 +36,7 @@ function ServicesComp() {
             skin.
           </p>
           <Button variant="outline-dark" as={Link} to="/services">
-            Learn More
+            Explore
           </Button>
         </Col>
         <Col className="border text-center p-5">
@@ -46,7 +46,7 @@ function ServicesComp() {
             skin.
           </p>
           <Button variant="outline-dark" as={Link} to="/services">
-            Learn More
+            Explore
           </Button>
         </Col>
       </Row>

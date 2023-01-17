@@ -11,25 +11,23 @@ function About() {
           <div className="border bg-cream text-center p-3">
             <h3>Navy Yard, Washington D.C</h3>
             <p>
-              Navy Yard Nails is a premier Nails and Waxing lounge in the Navy
+              Navy Nails & Spa is a premier Nails and Waxing lounge in the Navy
               Yard, Washington D.C area.
             </p>
             <h3>Located at</h3>
             <p>1116 8th Street SE, Washington DC 20003</p>
-            <p>Call 202-544-2804 for more information.</p>
+            <p>Note: We are closed on Sundays.</p>
           </div>
         </div>
         <div className="px-sm-5 px-3 pt-5 pb-md-3 text-center">
           <div className="secondary-background p-5 m-2">
-            <h3 className="text-white fw-bold">Many Brands and Colors</h3>
+            <h3 className="text-white fw-bold">The Navy Nails Experience</h3>
+            <p>Welcome to Navy Nails & Spa.</p>
             <p>
-              Our mission is simple – to provide an ultra-hygienic Nails and
-              Waxing lounge in a serene environment. We provide each client with
-              a new disposable emery board, buffer, and pumice stone during
-              their manicure and pedicure services. These are one-time-use
-              tools, which will be discarded after each service, unless the
-              client opts to take these items home. Welcome to Navy Yard Salon.
-              It’s surprisingly refreshing.
+              Our mission is simple – to provide a Nails and Waxing lounge in a
+              serene and relaxing environment. We offer a variety of pedicure
+              services such as our Lavender & Chamomile, Winter Warm, Ocean
+              Refresh, and Vitamin Recharge pedicures.
             </p>
           </div>
         </div>
@@ -46,7 +44,7 @@ function About() {
           <div className="secondary-background p-4 m-2">
             <h3 className="text-white fw-bold">Our Mission</h3>
             <p>
-              Navy Yard Salon prides ourselves with top of the line manicures
+              Navy Nails & Spa prides ourselves with top of the line manicures
               and pedicures from experienced professionals. Following safe and
               clean regulations, we keep you relaxed, refreshed, and 100%
               satisfied with our service.

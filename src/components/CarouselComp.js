@@ -1,15 +1,14 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import carouselImg1 from "../assets/images/carousel-img1.avif";
+import carouselImg2 from "../assets/images/carousel-img2.avif";
+import carouselImg3 from "../assets/images/carousel-img3.avif";
 
 function CorouselComp() {
   return (
     <Carousel className="carousel-container">
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-          alt="First slide"
-        />
+        <img className="d-block w-100" src={carouselImg1} alt="First slide" />
 
         <Carousel.Caption>
           <h3 className="fs-1 fw-bold">Book Today</h3>
@@ -21,11 +20,7 @@ function CorouselComp() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1617581629397-a72507c3de9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
-          alt="Second slide"
-        />
+        <img className="d-block w-100" src={carouselImg2} alt="Second slide" />
         <Carousel.Caption>
           <h3 className="text-white fs-1 fw-bold">
             Located at the heart of Navy Yard Washington D.C.
@@ -34,11 +29,7 @@ function CorouselComp() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1544816135-b44f18b3c5d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={carouselImg3} alt="Third slide" />
 
         <Carousel.Caption>
           <h3 className="fs-1 fw-bold">

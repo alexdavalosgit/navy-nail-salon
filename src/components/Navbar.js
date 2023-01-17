@@ -7,7 +7,7 @@ function NavbarComp() {
     <Navbar sticky="top" expand="md" className="py-2 bg-cream">
       <Container>
         <Navbar.Brand href="/" className="fs-3 fw-bold secondary-color">
-          Navy Yard Nails
+          Navy Nails & Spa
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

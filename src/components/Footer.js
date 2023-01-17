@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer bg-cream">
       <p className="fs-6">
-        Copyright © 2022 Navy Yard Nails - All Rights Reserved.
+        Copyright © 2022 Navy Nails & Spa - All Rights Reserved.
       </p>
       <div className="d-flex justify-content-center ">
         <a href="/about" className="px-1 link-style">
