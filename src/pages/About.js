@@ -11,12 +11,12 @@ function About() {
           <div className="border bg-cream text-center p-3">
             <h3>Navy Yard, Washington D.C</h3>
             <p>
-              Navy Nails & Spa is a premier Nails and Waxing lounge in the Navy
-              Yard, Washington D.C area.
+              Navy Nails & Spa is a premier Nails and Waxing lounge in Navy
+              Yard, Washington D.C.
             </p>
             <h3>Located at</h3>
             <p>1116 8th Street SE, Washington DC 20003</p>
-            <p>Note: We are closed on Sundays.</p>
+            <p>For more information call 202-544-2804.</p>
           </div>
         </div>
         <div className="px-sm-5 px-3 pt-5 pb-md-3 text-center">
