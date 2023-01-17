@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
-import Infobar from "./Infobar";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavbarComp() {
   return (
-    <Navbar bg="light" sticky="top" expand="md" className="py-2">
+    <Navbar sticky="top" expand="md" className="py-2 bg-cream">
       <Container>
-        <Navbar.Brand href="#home" className="fs-3 fw-bold secondary-color">
+        <Navbar.Brand href="/" className="fs-3 fw-bold secondary-color">
           Navy Yard Nails
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
