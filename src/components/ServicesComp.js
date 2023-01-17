@@ -6,7 +6,7 @@ function ServicesComp() {
   return (
     <Container fluid className="bg-cream">
       <Row>
-        <Col className="border text-center p-5">
+        <Col sm={6} className="border text-center p-5">
           <h3 className="fw-bold secondary-color">Manicure</h3>
           <p>
             Our nail care treatment stimulate nail growth and soften dry, dull
@@ -16,7 +16,7 @@ function ServicesComp() {
             Explore
           </Button>
         </Col>
-        <Col className="border text-center p-5">
+        <Col sm={6} className="border text-center p-5">
           <h3 className="fw-bold secondary-color">Pedicure</h3>
           <p>
             Pedicure services provide full restoration for your nails with extra
@@ -29,7 +29,7 @@ function ServicesComp() {
       </Row>
 
       <Row>
-        <Col className="border text-center p-5">
+        <Col sm={6} className="border text-center p-5">
           <h3 className="fw-bold secondary-color">Nail Art</h3>
           <p>
             Our nail care treatment stimulate nail growth and soften dry, dull
@@ -39,7 +39,7 @@ function ServicesComp() {
             Explore
           </Button>
         </Col>
-        <Col className="border text-center p-5">
+        <Col sm={6} className="border text-center p-5">
           <h3 className="fw-bold secondary-color">Parrafin Wax</h3>
           <p>
             Our nail care treatment stimulate nail growth and soften dry, dull
